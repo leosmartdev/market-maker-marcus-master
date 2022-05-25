@@ -1,0 +1,23 @@
+{
+  "name": "mmm-bot",
+  "version": "0.0.7",
+  "description": "Market Making Bot - Marcus",
+  "main": "src/app.js",
+  "author": "Tommy",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "test": "jest",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3"
+  }
+}
